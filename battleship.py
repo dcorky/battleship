@@ -29,6 +29,7 @@ for turn in range(4):
 #add correct input loop
   if guess_row == ship_row and guess_col == ship_col:
     print("Congratulations! You sunk my battleship!")
+    print(board)
     break
   else:
     if (guess_row < 1 or guess_row > 5) or (guess_col < 1 or guess_col > 5):
